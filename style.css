@@ -2,14 +2,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-div.container
-{
-	 width:80%;
-	 margin:0 auto;
-	 overflow:hidden;
-	 padding:12px;
-}
-a
+a.download-btn
 {
 	text-decoration:none;
 	border: 1px solid #9dc6ce;
@@ -24,7 +17,7 @@ a
     box-shadow:-1px 0px 1px 6px #95dbe7;
 	margin: 10px 0 0 10px;
 }
-a:after{ 
+a.download-btn:after{ 
     content: '';
     display: block;
     position: absolute;
